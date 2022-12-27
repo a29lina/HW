@@ -30,7 +30,7 @@ int size = Convert.ToInt32(Console.ReadLine());
 string[] array = new string[size];
 string[] res = new string[size];
 
-Console.WriteLine($"Введите {size} строк");
+Console.WriteLine($"Введите {size} строк:");
 
 for (int i = 0; i < size; i++)
 {
