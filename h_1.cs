@@ -12,3 +12,12 @@ void Result(string[] array_1, string[] array_2)
         }
     }
 }
+
+
+void PrintArray(string[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write($"{arr[i]}" + " ");
+    }
+}
